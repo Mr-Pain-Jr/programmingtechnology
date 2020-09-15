@@ -13,6 +13,6 @@ public class TestApp {
         System.out.println("a+b="+(a+b));
         System.out.println("GIT test application");
         SimpleCalc calc = new SimpleCalc(5,6);
-        calc.getSum();
+        System.out.println(calc.getSum());
     }
 }
