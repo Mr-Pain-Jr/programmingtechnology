@@ -14,5 +14,10 @@ public class SimpleCalc {
         return this.a+this.b;
     }
 
+    public double getMultipl(){
+        return this.a*this.b;
+    }
     //Adding some changes
+
+
 }
