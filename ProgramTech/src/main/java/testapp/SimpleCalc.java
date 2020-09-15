@@ -13,4 +13,6 @@ public class SimpleCalc {
     public double getSum(){
         return this.a+this.b;
     }
+
+    //Adding some changes
 }
