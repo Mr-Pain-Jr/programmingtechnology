@@ -1,4 +1,4 @@
-package testapp;
+package pr1;
 
 public class SimpleCalc {
 
