@@ -37,11 +37,6 @@ pipeline {
 			}
 		}
 		stage('Docker build') {
-			agent any
-			steps {
-				junit 'target/QueueWithPriorityTest.xml'
-				//sh "echo dc"
-			}
 			post {
 				success {
 					echo "Application testing successfully completed"
