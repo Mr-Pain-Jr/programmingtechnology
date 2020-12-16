@@ -19,7 +19,7 @@ pipeline {
 			}
 			steps {
 				echo "Building ProgramTech ${BUILD_NUMBER}"
-				sh "mvn clean package"
+				sh "mvn clean"
 				echo "Build completed"
 			}
 		}
