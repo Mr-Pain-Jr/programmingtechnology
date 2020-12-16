@@ -37,6 +37,17 @@ pipeline {
 			}
 		}
 		stage('Docker build') {
+						agent {
+            				docker {
+            					image 'maven:3.6.3'
+            					args '-u=\"root\"'
+            				}
+            			}
+            			steps {
+            				sh 'mvn test'
+            				//sh 'echo cd'
+
+            			}
 			post {
 				success {
 					echo "Application testing successfully completed"
