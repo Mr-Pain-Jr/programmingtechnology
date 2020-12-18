@@ -27,7 +27,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f42772a2-6d7e-4b4c-969c-49143dfa8b59" name="Default Changelist" comment="" />
+    <list default="true" id="f42772a2-6d7e-4b4c-969c-49143dfa8b59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProgramTech []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -179,6 +170,8 @@
       <workItem from="1608107902886" duration="423000" />
       <workItem from="1608135362960" duration="2891000" />
       <workItem from="1608147090930" duration="1704000" />
+      <workItem from="1608201130026" duration="59000" />
+      <workItem from="1608283530385" duration="591000" />
     </task>
     <servers />
   </component>
